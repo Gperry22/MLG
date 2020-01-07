@@ -5,32 +5,43 @@ h4, p {
     margin-top: 30px;
     width: 100%;
     height: 600px;;
+    display: block;
 }
 
 #cardDiv{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
 
 }
 
 #cardRow{
- position: absolute;
      top: -50px;
-     left: 250px;
+     /* left: 250px; */
     margin-bottom: 30px ;
+    position: absolute;
 }
 
+.statement{
+    color: black
+}
+
+
 #aboutMLG{
-    position: absolute;
+
+    margin-top: 60px;
     text-align: center;
-    top: 1000px;
-    left: 200px;
-    width: 75%;
+
+
 }
 
 #aboutMLG p{
     color: black;
 }
 
+#middleDiv {
+    text-align: center;}
 
 
 
@@ -53,7 +64,7 @@ h4, p {
     background-color: black;
     color: white;
     text-align: center;
-    bottom: -700px
+    bottom: -500px
 }
 
 #footer img{
@@ -63,12 +74,12 @@ h4, p {
     border-radius: 50px
 
 }
-
+/*
 .gpColor{
 
 
     z-index: 99;
-}
+} */
 
 
 .fa {
@@ -81,4 +92,6 @@ h4, p {
     border-bottom: 2px solid goldenrod;
     margin-bottom: 10px;
 }
+
+
 
