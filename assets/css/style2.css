@@ -1,0 +1,84 @@
+h4, p {
+    color: white;
+}
+#mainPageImg {
+    margin-top: 30px;
+    width: 100%;
+    height: 600px;;
+}
+
+#cardDiv{
+    position: relative;
+
+}
+
+#cardRow{
+ position: absolute;
+     top: -50px;
+     left: 250px;
+    margin-bottom: 30px ;
+}
+
+#aboutMLG{
+    position: absolute;
+    text-align: center;
+    top: 1000px;
+    left: 200px;
+    width: 75%;
+}
+
+#aboutMLG p{
+    color: black;
+}
+
+
+
+
+
+.cardGP {
+    text-align: center;
+    height: 300px;
+    width: 300px;
+    margin-right: 25px;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#footer{
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    bottom: -630px
+}
+
+#footer img{
+    height: 60px;
+    width: 60px;
+    margin-top: 20px;
+    border-radius: 50px
+
+}
+
+.gpColor{
+
+
+    z-index: 99;
+}
+
+
+.fa {
+    color: goldenrod !important;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.circle{
+    border-bottom: 2px solid goldenrod;
+    margin-bottom: 10px;
+}
+
