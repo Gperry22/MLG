@@ -90,3 +90,82 @@ body {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
+
+
+@media (max-width: 1199px) {
+#leftSide {
+  position: relative;
+  height: 100px;
+  width: 50%;
+  /* border: 1px solid gold; */
+  float: left;
+  padding-top: 40%;
+}
+
+#rightSide {
+  height: 100px;
+  width: 50%;
+  /* border: 1px solid gold; */
+  float: left;
+  padding-top: 25%;
+}
+
+#bgPic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 700px;
+}
+
+}
+
+@media (max-width: 768px) {
+#leftSide {
+  position: relative;
+  height: 100px;
+  width: 50%;
+  /* border: 1px solid gold; */
+  float: left;
+  padding-top: 40%;
+}
+
+#rightSide {
+  height: 100px;
+  width: 50%;
+  /* border: 1px solid gold; */
+  float: left;
+  padding-top: 30%;
+}
+
+#bgPic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 500px;
+}
+
+}
+
+@media (max-width: 375px) {
+#leftSide {
+  position: relative;
+  height: 100px;
+  width: 100%;
+  /* border: 1px solid gold; */
+  float: left;
+  padding-top: 50%;
+}
+
+#rightSide {
+  display: none;
+  height: 100px;
+  width: 50%;
+  /* border: 1px solid gold; */
+  float: left;
+  padding-top: 30%;
+}
+
+}
+
