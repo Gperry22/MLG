@@ -148,7 +148,7 @@ body {
 
 }
 
-@media (max-width: 375px) {
+@media (max-width: 460px) {
 #leftSide {
   position: relative;
   height: 100px;
